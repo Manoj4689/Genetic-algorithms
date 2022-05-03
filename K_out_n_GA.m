@@ -7,16 +7,16 @@ close all
 
 
 CostFunction = @ Manoj_CostFun;  % Objective Function
-K = 5;
+K = 15;
 nVar = 4;     % Number of Decision Variables
 VarSize = [1 nVar];     % Decision Variables Matrix Size
 
 
 %% GA Parameters
 
-MaxIt=100;         % Maximum Number of Iterations
+MaxIt=1500;         % Maximum Number of Iterations
 
-nPop=20;            % Population Size
+nPop=1500;            % Population Size
 
 pc=0.4;                 % Crossover Percentage
 nc=2*round(pc*nPop/2);  % Number of Offsprings (Parents)
